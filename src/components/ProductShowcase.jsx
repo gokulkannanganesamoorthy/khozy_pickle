@@ -39,9 +39,8 @@ export default function ProductShowcase() {
           ))}
         </div>
 
-        {/* Why Choose Us Section */}
         <div className="mt-20">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Why Choose Khozy Pickle?</h3>
+          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Why Choose ASM Foods?</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-2xl p-8 text-center hover:bg-red-50 transition-colors duration-300 border border-gray-100 hover:border-red-100 group">

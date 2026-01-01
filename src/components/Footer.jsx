@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-               <img src="/assets/logo.png" alt="Khozy Pickle" className="h-12 w-auto" />
-               <span className="font-bold text-2xl tracking-tight">Khozy Pickle</span>
+               <img src="/assets/logo.png" alt="ASM Foods" className="h-12 w-auto" />
+               <span className="font-bold text-2xl tracking-tight">ASM Foods</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Bringing the authentic taste of homemade pickles to your doorstep. Crafted with traditional recipes and premium ingredients.
@@ -45,11 +45,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} Khozy Pickle. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ASM Foods. All rights reserved.</p>
           <div className="flex items-center gap-1 mt-2 md:mt-0">
             <span>Made with</span>
             <Heart size={14} className="text-brand-red fill-current" />
-            <span>by Gokul Kannan Ganesamoorthy</span>
+            <span>by <a href="https://gokulkannanganesamoorthy.vercel.app" target="_blank" rel="noopener noreferrer" className="font-bold hover:text-white transition-colors">Gokul Kannan Ganesamoorthy</a></span>
           </div>
         </div>
       </div>

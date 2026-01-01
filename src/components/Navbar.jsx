@@ -24,8 +24,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
-             <img src="/assets/logo.png" alt="Khozypickle" className="h-10 w-auto" />
-             <span className="font-bold text-2xl text-brand-red tracking-tight">Khozy Pickle</span>
+             <img src="/assets/logo.png" alt="ASM Foods" className="h-10 w-auto" />
+             <span className="font-bold text-2xl text-brand-red tracking-tight">ASM Foods</span>
           </div>
 
           {/* Desktop Menu */}
