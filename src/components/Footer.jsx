@@ -16,11 +16,8 @@ export default function Footer() {
               Bringing the authentic taste of homemade pickles to your doorstep. Crafted with traditional recipes and premium ingredients.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-all">
+              <a href="https://www.instagram.com/_.asm_foods_" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-all">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-all">
-                <Facebook size={20} />
               </a>
             </div>
           </div>
