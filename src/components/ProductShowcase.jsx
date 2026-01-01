@@ -39,59 +39,39 @@ export default function ProductShowcase() {
           ))}
         </div>
 
-        {/* Features & Details Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center border-t border-gray-100 pt-16">
-          <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-gray-900">Why Choose Us?</h3>
-            
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl">🌶️</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900">Perfectly Spiced</h3>
-                <p className="text-gray-600 mt-2">
-                  Not too hot, not too mild. A perfect balance of Kashmiri chili and traditional spices.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl">🍗</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900">Premium Meat</h3>
-                <p className="text-gray-600 mt-2">
-                  We use only farm-fresh, boneless chicken cubes that are fried to perfection.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl">🌿</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900">100% Natural</h3>
-                <p className="text-gray-600 mt-2">
-                  No artificial preservatives or colors. Just like how grandma used to make it.
-                </p>
-              </div>
-            </div>
-          </div>
+        {/* Why Choose Us Section */}
+        <div className="mt-20">
+          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Why Choose Khozy Pickle?</h3>
           
-          <div id="details" className="h-full">
-            <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100 h-full">
-              <h4 className="font-bold text-gray-900 mb-4 text-lg">Ingredients</h4>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Chicken (Boneless), Ginger, Garlic, Curry Leaves, Chili Powder, Turmeric, Vinegar, Salt, Gingelly Oil, Fenugreek, Mustard Seeds.
-              </p>
-              <div className="p-4 bg-white rounded-xl border border-gray-100">
-                 <p className="text-sm text-gray-500 italic">
-                   * New Kasini Pickle ingredients coming soon!
-                 </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-gray-50 rounded-2xl p-8 text-center hover:bg-red-50 transition-colors duration-300 border border-gray-100 hover:border-red-100 group">
+              <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-3xl">🌶️</span>
               </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Perfectly Spiced</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Not too hot, not too mild. A perfect balance of Kashmiri chili and traditional spices.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-2xl p-8 text-center hover:bg-yellow-50 transition-colors duration-300 border border-gray-100 hover:border-yellow-100 group">
+              <div className="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-3xl">🍗</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Premium Meat</h3>
+              <p className="text-gray-600 leading-relaxed">
+                We use only farm-fresh, boneless chicken cubes that are fried to perfection.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-2xl p-8 text-center hover:bg-green-50 transition-colors duration-300 border border-gray-100 hover:border-green-100 group">
+              <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-3xl">🌿</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">100% Natural</h3>
+              <p className="text-gray-600 leading-relaxed">
+                No artificial preservatives or colors. Just like how grandma used to make it.
+              </p>
             </div>
           </div>
         </div>
